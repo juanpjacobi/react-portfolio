@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-text {
+    text-shadow: 1px 1px 25px white;
+}
+
+.text-classic {
+    font-family: 'sans-serif';
+}
+.text-cursive {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+}
+.active {
+    background-color: rgb(209 213 219);
+    color: rgb(26, 29, 32)
+}
