@@ -2,8 +2,25 @@ import { Outlet } from "react-router-dom";
 import { NavBar } from "../components/shared/NavBar";
 import 'animate.css';
 import { Footer } from "../components/shared/Footer";
+import { useEffect } from "react";
+import { useSkills } from "../hooks/useSkills";
+import { useApi } from "../context/PortfolioContext";
+import { Spinner } from "../components/shared/spinners/Spinner";
+import { useProjects } from "../hooks/useProjects";
 
 export const Layout = () => {
+
+const {state} = useApi()
+  const { getSkills } = useSkills();
+  const { getProjects } = useProjects();
+
+
+  useEffect(() => {
+    getSkills();
+    getProjects();
+  }, [])
+
+
   return (
     <main className="m-auto flex flex-col bg-gradient-to-br from-slate-950 from-20% via-slate-800
      to-gray-950 to-90% min-h-lvh  items-center animate__animated animate__fadeIn">
@@ -16,7 +33,7 @@ export const Layout = () => {
       </div>
 
       <div className="max-w-6xl p-10 w-full ">
-        <Outlet />
+       {state.loading ? <Spinner /> : <Outlet />}
       </div>
       <Footer />
     </main>
