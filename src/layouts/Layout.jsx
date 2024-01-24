@@ -23,7 +23,7 @@ const {state} = useApi()
 
   return (
     <main className="m-auto flex flex-col bg-gradient-to-br from-slate-950 from-20% via-slate-800
-     to-gray-950 to-90% h-1/2 items-center animate__animated animate__fadeIn">
+     to-gray-950 to-90% min-h-lvh items-center animate__animated animate__fadeIn">
       <div className="w-full border-b border-slate-200 items-center flex flex-col md:flex-row justify-between">
         <div className="p-10 text-center text-classic shadow-text ">
           <span className="text-gray-100 uppercase text-2xl">Juan Pablo Jacobi</span>
