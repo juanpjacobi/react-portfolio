@@ -8,7 +8,7 @@ export const ProjectsSlider = () => {
 
   return (
     <>
-      <div className="grid grid-cols-2 gap-5">
+      <div className="grid md:grid-cols-2 gap-5">
         {state.projects?.map((project) => (
           <div className="flex flex-col h-80 mb-5" key={project.project_id}>
             <h2 className="text-center text-xl font-semibold text-slate-50 mb-2">

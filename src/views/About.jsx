@@ -28,7 +28,7 @@ export const About = () => {
             like Javascript, Php, NodeJs, Object Oriented Programming, Flutter,
             Sql and NoSql databases, React, Angular, Laravel, Git, Github,
             postman. I developed some personal projects to put this knowledge
-            into practice I leave them in the projects section with the github
+            into practice, I leave them in the projects section with their github
             link to check the code. At the moment I'm looking for my first
             formal experience to continue growing professionally.
           </p>
