@@ -33,6 +33,7 @@ const {state} = useApi()
       </div>
 
       <div className="max-w-6xl p-10 w-full ">
+        
        {state.loading ? <Spinner /> : <Outlet />}
       </div>
       <Footer />

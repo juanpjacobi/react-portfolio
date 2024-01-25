@@ -1,6 +1,5 @@
 import React from "react";
 import { SkillsAndStrengthsList } from "../components/about/SkillsAndStrengthsList";
-import { useApi } from "../context/PortfolioContext";
 
 export const About = () => {
 
