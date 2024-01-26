@@ -3,8 +3,7 @@ import { Carousel } from "flowbite-react";
 import { useApi } from "../../context/PortfolioContext";
 
 export const ProjectsSlider = () => {
-
-  const {state} = useApi()
+  const { state } = useApi();
 
   return (
     <>
@@ -16,23 +15,34 @@ export const ProjectsSlider = () => {
             </h2>
             <Carousel className="dark">
               {project.Images?.map((image) => (
-                <img src={image.image_url} alt={image.image_alt} key={image.image_id} className="h-full"/>
+                <img
+                  src={image.image_url}
+                  alt={image.image_alt}
+                  key={image.image_id}
+                  className="h-full"
+                />
               ))}
             </Carousel>
             <p className="text-center text-slate-100 mt-5">
-              {project.project_description}
+              {project.project_description.split(" ").map((e) => (
+                <span class="bg-slate-100 text-slate-800 text-md font-medium me-2 px-2.5 py-0.5 rounded-full">
+                  {e}
+                </span>
+              ))}
             </p>
 
             <div className="text-center gap-5 mt-3">
               <a
                 className="text-slate-100 hover:bg-gray-300 hover:text-slate-800 p-2 rounded-lg"
-                href={project.Link?.link_visit_url} target="_blank"
+                href={project.Link?.link_visit_url}
+                target="_blank"
               >
                 Visit site
               </a>
               <a
                 className="text-slate-100 hover:bg-gray-300 hover:text-slate-800 p-2 rounded-lg"
-                href={project.Link?.link_code_url} target="_blank"
+                href={project.Link?.link_code_url}
+                target="_blank"
               >
                 Github repository
               </a>
