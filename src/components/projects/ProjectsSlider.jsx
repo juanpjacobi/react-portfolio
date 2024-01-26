@@ -9,7 +9,7 @@ export const ProjectsSlider = () => {
     <>
       <div className="grid lg:grid-cols-2 gap-5">
         {state.projects?.map((project) => (
-          <div className="flex flex-col h-80 lg:w-full w-3/4 m-auto" key={project.project_id}>
+          <div className="flex flex-col h-80 md:w-full w-5/6 m-auto" key={project.project_id}>
             <h2 className="text-center text-2xl font-semibold text-slate-50 mb-2">
               {project.project_name}
             </h2>
