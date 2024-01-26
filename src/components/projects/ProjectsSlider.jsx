@@ -10,7 +10,7 @@ export const ProjectsSlider = () => {
       <div className="grid md:grid-cols-2 gap-5">
         {state.projects?.map((project) => (
           <div className="flex flex-col h-80 w-full m-auto" key={project.project_id}>
-            <h2 className="text-center text-x font-semibold text-slate-50 mb-2">
+            <h2 className="text-center text-2xl font-semibold text-slate-50 mb-2">
               {project.project_name}
             </h2>
             <Carousel className="dark">
