@@ -9,7 +9,7 @@ export const ProjectsSlider = () => {
     <>
       <div className="grid md:grid-cols-2 gap-5">
         {state.projects?.map((project) => (
-          <div className="flex flex-col min-h-80" key={project.project_id}>
+          <div className="grow h-48 mb-32" key={project.project_id}>
             <h2 className="text-center text-xl font-semibold text-slate-50 mb-2">
               {project.project_name}
             </h2>
@@ -19,13 +19,13 @@ export const ProjectsSlider = () => {
                   src={image.image_url}
                   alt={image.image_alt}
                   key={image.image_id}
-                  className="h-full"
+                  className="h-full "
                 />
               ))}
             </Carousel>
             <div className="text-center mt-2">
               {project.project_description.split(" ").map((e) => (
-                  <span className="inline-flex  items-center me-2 mb-2 capitalize  py-0.5 px-2.5 rounded-full text-md border border-slate-100 text-slate-100">{e}</span>
+                  <span className="inline-block items-center me-2 mb-2 capitalize py-0.5 px-2.5 rounded-full text-md border border-slate-100 text-slate-100">{e}</span>
                   ))}
             </div>
 
