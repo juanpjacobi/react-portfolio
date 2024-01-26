@@ -29,9 +29,9 @@ export const ProjectsSlider = () => {
                   ))}
             </div>
 
-            <div className="text-center">
+            <div className="text-center mt-1">
               <a
-                className="text-slate-100 hover:bg-gray-300 hover:text-slate-800 capi p-2 rounded-lg"
+                className="text-slate-100 hover:bg-gray-300 hover:text-slate-800 p-2 rounded-lg"
                 href={project.Link?.link_visit_url}
                 target="_blank"
               >
