@@ -7,9 +7,9 @@ export const ProjectsSlider = () => {
 
   return (
     <>
-      <div className="grid md:grid-cols-2 gap-5">
+      <div className="grid lg:grid-cols-2 gap-5">
         {state.projects?.map((project) => (
-          <div className="grow h-48 mb-32" key={project.project_id}>
+          <div className="grow h-48 mb-32 mt-5" key={project.project_id}>
             <h2 className="text-center text-xl font-semibold text-slate-50 mb-2">
               {project.project_name}
             </h2>
@@ -19,7 +19,7 @@ export const ProjectsSlider = () => {
                   src={image.image_url}
                   alt={image.image_alt}
                   key={image.image_id}
-                  className="h-full "
+                  className="h-full"
                 />
               ))}
             </Carousel>
