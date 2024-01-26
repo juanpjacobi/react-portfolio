@@ -17,3 +17,7 @@
     background-color: rgb(209 213 219);
     color: rgb(26, 29, 32)
 }
+
+.capitalize:first-letter {
+    text-transform: uppercase;
+}

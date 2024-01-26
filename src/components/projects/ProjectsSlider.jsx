@@ -9,7 +9,7 @@ export const ProjectsSlider = () => {
     <>
       <div className="grid md:grid-cols-2 gap-5">
         {state.projects?.map((project) => (
-          <div className="flex flex-col h-80 mb-5" key={project.project_id}>
+          <div className="flex flex-col min-h-80" key={project.project_id}>
             <h2 className="text-center text-xl font-semibold text-slate-50 mb-2">
               {project.project_name}
             </h2>
@@ -23,17 +23,15 @@ export const ProjectsSlider = () => {
                 />
               ))}
             </Carousel>
-            <p className="text-center text-slate-100 mt-5">
+            <div className="text-center mt-2">
               {project.project_description.split(" ").map((e) => (
-                <span class="bg-slate-100 text-slate-800 text-md font-medium me-2 px-2.5 py-0.5 rounded-full">
-                  {e}
-                </span>
-              ))}
-            </p>
+                  <span className="inline-flex  items-center me-2 mb-2 capitalize  py-0.5 px-2.5 rounded-full text-md border border-slate-100 text-slate-100">{e}</span>
+                  ))}
+            </div>
 
-            <div className="text-center gap-5 mt-3">
+            <div className="text-center">
               <a
-                className="text-slate-100 hover:bg-gray-300 hover:text-slate-800 p-2 rounded-lg"
+                className="text-slate-100 hover:bg-gray-300 hover:text-slate-800 capi p-2 rounded-lg"
                 href={project.Link?.link_visit_url}
                 target="_blank"
               >
