@@ -32,7 +32,7 @@ export const About = () => {
             formal experience to continue growing professionally.
           </p>
         </div>
-        <div className="mx-auto w-4/4 md:w-2/4 mt-5 md:mt-0 flex flex-col md:pl-20 max-w-md text-slate-200 text-classic">
+        <div className="mx-auto w-4/4 lg:w-2/4 mt-5 md:mt-0 flex flex-col md:pl-20 max-w-md text-slate-200 text-classic">
           < SkillsAndStrengthsList />
           <div className="mt-5 text-center">
             <h2 className="uppercase text-lg underline underline-offset-4">
