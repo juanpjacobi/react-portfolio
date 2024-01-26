@@ -25,7 +25,7 @@ export const ProjectsSlider = () => {
             </Carousel>
             <div className="text-center mt-2">
               {project.project_description.split(" ").map((e, index) => (
-                  <span key={index} className="inline-block items-center me-2 mb-2 capitalize py-0.5 px-2.5 rounded-full text-xs md:text-md border border-slate-100 text-slate-100">{e}</span>
+                  <span key={index} className="inline-block items-center me-2 mb-2 capitalize py-0.5 px-2.5 rounded-full text-xs md:text-base border border-slate-100 text-slate-100">{e}</span>
                   ))}
             </div>
 
