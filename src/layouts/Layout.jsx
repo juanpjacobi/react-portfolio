@@ -32,7 +32,7 @@ const {state} = useApi()
         <NavBar />
       </div>
 
-      <div className="max-w-6xl p-10 w-full ">
+      <div className="md_max-w-6xl md:p-10 p-5 w-full ">
         
        {state.loading ? <Spinner /> : <Outlet />}
       </div>

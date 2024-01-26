@@ -7,10 +7,10 @@ export const ProjectsSlider = () => {
 
   return (
     <>
-      <div className="grid lg:grid-cols-2 gap-5">
+      <div className="grid md:grid-cols-2 gap-5">
         {state.projects?.map((project) => (
-          <div className="grow h-48 mb-32 mt-5" key={project.project_id}>
-            <h2 className="text-center text-xl font-semibold text-slate-50 mb-2">
+          <div className="flex flex-col h-80 w-full m-auto" key={project.project_id}>
+            <h2 className="text-center text-x font-semibold text-slate-50 mb-2">
               {project.project_name}
             </h2>
             <Carousel className="dark">
@@ -25,10 +25,8 @@ export const ProjectsSlider = () => {
             </Carousel>
             <div className="text-center mt-2">
               {project.project_description.split(" ").map((e, index) => (
-                <span key={index} className="inline-block items-center me-2 mb-2 capitalize py-0.5 px-2.5 rounded-full text-md border border-slate-100 text-slate-100">
-                  {e}
-                </span>
-              ))}
+                  <span key={index} className="inline-block items-center me-2 mb-2 capitalize py-0.5 px-2.5 rounded-full text-xs md:text-md border border-slate-100 text-slate-100">{e}</span>
+                  ))}
             </div>
 
             <div className="text-center mt-1">
