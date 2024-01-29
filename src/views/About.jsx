@@ -15,22 +15,24 @@ export const About = () => {
             About me
           </h1>
           <p className="text-lg">
-            Hi, my name is Juan Pablo Jacobi, I'm web developer. I started to
-            study five years ago in the university of Santo Domingo placed in
-            Cordoba, Argentina. I love all related to software development
-            especially web development. I heavily oriented for the backend
-            tasks, but I love frontend too, especially using React and others
-            Javascript Frameworks like Angular and VueJs. I saw a lot of topics
-            in my career relateds to Systems design, database models, data
-            structure and algorithms, agile methodologies, networking, testing,
-            operating Systems, mathematics, algebra and logic. I also have taken
-            a lot of online courses about web development, using technologies
-            like Javascript, Php, NodeJs, Object Oriented Programming, Flutter,
-            Sql and NoSql databases, React, Angular, Laravel, Git, Github,
-            postman. I developed some personal projects to put this knowledge
-            into practice, I leave them in the projects section with their github
-            link to check the code. At the moment I'm looking for my first
-            formal experience to continue growing professionally.
+          Hi, my name is Juan Pablo Jacobi, and I'm a web developer. 
+          I began my studies five years ago at the University of Santo Domingo, 
+          located in Cordoba, Argentina. I have a passion for all aspects of 
+          software development, with a strong focus on backend tasks. 
+          However, I also enjoy frontend development, particularly using React 
+          and other JavaScript frameworks like Angular and Vue.js.
+          Throughout my career, I have learned various topics related 
+          to systems design, database models, data structures and algorithms, 
+          agile methodologies, networking, testing, operating systems, mathematics, 
+          algebra, and logic. In addition to my formal education, 
+          I have pursued numerous online courses covering web development 
+          technologies such as JavaScript, PHP, Node.js, object-oriented programming, 
+          Flutter, SQL, and NoSQL databases, as well as tools like React, 
+          Angular, Laravel, Git, Github, and Postman.
+          To apply and solidify my knowledge, I have worked on several personal 
+          projects, which are showcased in the projects section along with their 
+          GitHub links for code review. Currently, I am seeking my first formal 
+          experience to continue growing professionally.
           </p>
         </div>
         <div className="mx-auto w-4/4 md:w-2/4 mt-5 md:mt-0 flex flex-col md:pl-20 max-w-md text-slate-200 text-classic">
@@ -42,8 +44,8 @@ export const About = () => {
           </div>
           <p className="text-center text-sm uppercase">
             Team work - Flexibility - Great learning capacity - Agile
-            methodologies - Responsability - Git - GitHub - Jira - B2 English
-            - Problem solving ability - Postman
+            methodologies - Responsability - Git - GitHub - Jira - B2 English - 
+            Problem solving ability - Postman
           </p>
         </div>
       </div>
