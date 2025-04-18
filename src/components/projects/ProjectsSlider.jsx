@@ -1,17 +1,22 @@
 import React from "react";
 import { Carousel } from "flowbite-react";
 import { useApi } from "../../context/PortfolioContext";
+// import { state } from "./data";
+import { NavLink } from "react-router-dom";
 
 export const ProjectsSlider = () => {
   const { state } = useApi();
-
   return (
     <>
       <div className="grid sm:grid-cols-2 gap-5">
         {state.projects?.map((project) => (
           <div className="flex flex-col h-80 w-full m-auto" key={project.project_id}>
-            <h2 className="text-center text-2xl font-semibold text-slate-50 mb-2">
+ 
+            <h2 className="text-center text-2xl font-semibold text-slate-50 mb-2 cursor-pointer">
+            <NavLink to={`/projects/${project.project_id}`} className="hover:">
+
               {project.project_name}
+            </NavLink>
             </h2>
             <Carousel className="dark">
               {project.Images?.map((image) => (
@@ -31,14 +36,14 @@ export const ProjectsSlider = () => {
 
             <div className="text-center mt-1 text-xs lg:text-base">
               <a
-                className="text-slate-100 hover:bg-gray-300 hover:text-slate-800 p-2 rounded-lg cursor-pointer"
+                className="text-slate-100 hover:bg-gray-300 hover:text-slate-800 p-2 rounded-lg"
                 href={project.Link?.link_visit_url}
                 target="_blank"
               >
                 Visit site
               </a>
               <a
-                className="text-slate-100 hover:bg-gray-300 hover:text-slate-800 p-2 rounded-lg cursor-pointer"
+                className="text-slate-100 hover:bg-gray-300 hover:text-slate-800 p-2 rounded-lg"
                 href={project.Link?.link_code_url}
                 target="_blank"
               >
