@@ -59,7 +59,7 @@ export const ProjectDetail = () => {
           Github repository
         </a>
       </div>
-      <p className="text-white">
+      <p className="text-white text-center">
         {project.project_information}
       </p>
     </div>
