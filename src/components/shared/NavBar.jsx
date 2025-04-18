@@ -8,7 +8,7 @@ export const NavBar = () => {
         className="text-gray-300 hover:bg-gray-300 hover:text-slate-800 p-2 rounded-lg"
         to={"/"}
       >
-        inicio
+        home
       </NavLink>
       <NavLink
         className="text-gray-300 hover:bg-gray-300 hover:text-slate-800 p-2 rounded-lg"

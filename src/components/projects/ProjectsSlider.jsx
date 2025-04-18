@@ -12,8 +12,8 @@ export const ProjectsSlider = () => {
         {state.projects?.map((project) => (
           <div className="flex flex-col h-80 w-full m-auto" key={project.project_id}>
  
-            <h2 className="text-center text-2xl font-semibold text-slate-50 mb-2 cursor-pointer">
-            <NavLink to={`/projects/${project.project_id}`} className="hover:">
+            <h2 className="text-center text-2xl font-semibold text-slate-50 mb-2 cursor-pointer ">
+            <NavLink to={`/projects/${project.project_id}`} className="hover:underline">
 
               {project.project_name}
             </NavLink>

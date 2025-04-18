@@ -20,14 +20,14 @@ export const ProjectDetail = () => {
       </h1>
 
       {/* Slider grande */}
-      <div className="w-full h-96">
+      <div className="w-full h-80 md:h-96">
         <Carousel className="dark">
           {project.Images.map((img) => (
             <img
               key={img.image_id}
               src={img.image_url}
               alt={img.image_alt}
-              className="object-cover w-full h-full rounded-lg shadow-lg"
+              className=" w-full h-full rounded-lg shadow-lg"
             />
           ))}
         </Carousel>
