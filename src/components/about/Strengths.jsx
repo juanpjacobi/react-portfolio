@@ -36,20 +36,22 @@ function Pills({ items }) {
 export const Strengths = () => {
   return (
     <section className="mt-10 md:mt-14 text-slate-200">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-        <div className="rounded-2xl border border-slate-200/30 p-5 md:p-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 items-start gap-6 md:gap-8">
+        <div className="self-start rounded-2xl border border-slate-200/30 p-5 md:p-6">
           <h2 className="uppercase text-lg underline underline-offset-4 text-center mb-4">
             Strengths
           </h2>
           <Pills items={strengths} />
         </div>
-        <div className="rounded-2xl border border-slate-200/30 p-5 md:p-6">
+
+        <div className="self-start rounded-2xl border border-slate-200/30 p-5 md:p-6">
           <h2 className="uppercase text-lg underline underline-offset-4 text-center mb-4">
             Languages
           </h2>
           <Pills items={languages} />
         </div>
-        <div className="rounded-2xl border border-slate-200/30 p-5 md:p-6">
+
+        <div className="self-start rounded-2xl border border-slate-200/30 p-5 md:p-6">
           <h2 className="uppercase text-lg underline underline-offset-4 text-center mb-4">
             Data Science (in progress)
           </h2>
@@ -58,4 +60,4 @@ export const Strengths = () => {
       </div>
     </section>
   );
-};
+}
