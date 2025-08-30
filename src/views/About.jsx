@@ -15,7 +15,6 @@ export const About = () => {
             <h1 className="text-4xl text-center underline underline-offset-8 mb-7 md:mb-8">
               About me
             </h1>
-            <a href="https://www.udemy.com/certificate/UC-74c306ef-c035-43c0-a7da-c6163018a5f6/">certificado</a>
             <p className="text-base md:text-lg leading-relaxed md:leading-loose space-y-4">
               Hi, my name is Juan Pablo Jacobi, and I’m a Software Developer. I
               began my studies in 2018 with online courses, later I have completed
