@@ -15,24 +15,29 @@ export const About = () => {
             About me
           </h1>
           <p className="text-lg">
-          Hi, my name is Juan Pablo Jacobi, and I'm a web developer. 
-          I began my studies five years ago at the University of Santo Domingo, 
-          located in Cordoba, Argentina. I have a passion for all aspects of 
-          software development, with a strong focus on backend tasks. 
-          However, I also enjoy frontend development, particularly using React 
-          and other JavaScript frameworks like Angular and Vue.js.
-          Throughout my career, I have learned various topics related 
-          to systems design, database models, data structures and algorithms, 
-          agile methodologies, networking, testing, operating systems, mathematics, 
-          algebra, and logic. In addition to my formal education, 
-          I have pursued numerous online courses covering web development 
-          technologies such as JavaScript, PHP, Node.js, object-oriented programming, 
-          Flutter, SQL, and NoSQL databases, as well as tools like React, 
-          Angular, Laravel, Git, Github, and Postman.
-          To apply and solidify my knowledge, I have worked on several personal 
-          projects, which are showcased in the projects section along with their 
-          GitHub links for code review. Currently, I am seeking my first formal 
-          experience to continue growing professionally.
+          Hi, my name is Juan Pablo Jacobi, and I’m a Software Developer.
+          I began my studies in 2018 with online courses, later I have completed a 
+          Technical Degree in Software Development at the University of Santo Domingo, 
+          Córdoba, Argentina. Since then, I have been passionate about technology and 
+          problem-solving through software.
+
+          Over the years, I have built a solid background in software engineering concepts such as systems design, 
+          data structures, database modeling, algorithms, and agile methodologies. 
+          I complement this foundation with continuous training in modern technologies including JavaScript, Node.js, 
+          NestJS, PHP/Laravel, React, SQL/NoSQL databases, Git/GitHub, Docker, and cloud-related tools.
+
+          I have worked on multiple freelance projects where I applied both backend and frontend skills, contributing to the 
+          development of web applications. Currently, I work professionally as a Backend Developer, 
+          focusing on building efficient APIs, scalable architectures, and robust data models. 
+          My daily stack includes Node.js with TypeScript and SQL Stored Procedures, supported by agile practices 
+          and collaboration tools such as Git, Bitbucket, Jira, Docker, and Postman for documentation and testing.
+
+          At the same time, I am expanding my expertise into Data Science, enhancing my analytical skills with Python, 
+          statistics, and machine learning—aiming to combine backend development with data-driven solutions.
+
+          In my portfolio you will find a selection of projects showcasing both my backend expertise and my 
+          full-stack capabilities, with links to GitHub for code review. My goal is to keep growing as a professional, 
+          always learning and applying the best practices of modern software development.
           </p>
         </div>
         <div className="mx-auto w-4/4 md:w-2/4 mt-5 md:mt-0 flex flex-col md:pl-20 max-w-md text-slate-200 text-classic">
