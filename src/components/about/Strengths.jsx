@@ -8,7 +8,7 @@ const strengths = [
   "Agile Mindset (Scrum/Kanban)",
 ];
 
-const languages = ["English (B2)", "Português (Básico)"];
+const languages = ["English (B2)", "Portuguese (Basic)"];
 
 const dataScience = [
   "Python",
