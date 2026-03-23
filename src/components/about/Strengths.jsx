@@ -53,7 +53,7 @@ export const Strengths = () => {
 
         <div className="self-start rounded-2xl border border-slate-200/30 p-5 md:p-6">
           <h2 className="uppercase text-lg underline underline-offset-4 text-center mb-4">
-            Data Science (in progress)
+            Data Science
           </h2>
           <Pills items={dataScience} />
         </div>
