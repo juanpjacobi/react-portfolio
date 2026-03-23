@@ -9,6 +9,7 @@ export const ProjectsSlider = () => {
   const customOrder = [
     "f3011206-4d2c-4869-aec3-c9250808bf0e",
     "76e8514f-dffe-4b1a-b455-5baa49f994eb",
+    "03f7deb6-19a8-4679-82ef-0b2ff1353e8a", 
     "142de05f-fd70-4e46-b2db-9d539224356b",
     "689c7878-ec3c-4602-be39-039097d446bb",
     "8a63ef43-8b57-4ea5-855f-61695f5d05bb",
